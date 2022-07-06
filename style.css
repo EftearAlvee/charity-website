@@ -184,3 +184,50 @@ h1 {
     background-size: 50px;
     margin-right: 30px;
 }
+
+.subscribe {
+    border: 3px solid #f1f1f1;
+    font-family: Arial;
+}
+
+.container {
+    padding: 20px;
+    background-color: #f1f1f1;
+}
+
+input[type=text],
+input[type=submit] {
+    width: 50%;
+    padding: 12px;
+    margin-left: 25%;
+    display: inline-block;
+    border: 2px solid rgba(51, 161, 192, 0.522);
+    background-color: rgba(254, 215, 215, 0.581);
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    background-color: #d55555d3;
+    color: white;
+    border: 3px solid rgba(51, 161, 192, 0.522);
+}
+
+footer p {
+    text-align: center;
+    background-color: black;
+    padding: 5%;
+
+
+}
+
+.footer {
+    font-family: 'Rubik Moonrocks', cursive;
+    color: crimson;
+    font-size: 40px;
+    padding-top: 10%;
+}
+
+.last {
+    color: #f1f1f1;
+    font-size: 15px;
+}
