@@ -1,6 +1,7 @@
 body {
     font-family: 'Oswald', sans-serif;
     margin: 0;
+
 }
 
 h1 {
@@ -24,10 +25,11 @@ h1 {
     text-decoration: none;
     background-color: rgb(247, 74, 74);
     text-align: center;
-    padding: 10px 20px 10px 20px;
+    padding: 10px 20px 12px 20px;
     border-radius: 5px;
     color: white;
     font-weight: 700;
+    font-size: 25px;
 }
 
 .background-img {
@@ -45,4 +47,92 @@ h1 {
     color: rgb(246, 245, 245);
     text-align: center;
     padding: 0:
+}
+
+
+.donation-area {
+    color: rgb(0, 0, 0);
+    width: 100%;
+    margin: auto;
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
+
+#donate {
+    color: black;
+    margin: auto;
+    font-size: 50px;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.qouate {
+    text-align: center;
+    padding-left: 300px;
+    padding-right: 300px;
+    color: rgba(0, 0, 0, 0.477);
+}
+
+
+
+#amount-select {
+    display: flex;
+    text-align: center;
+    margin-left: 15%;
+}
+
+.flexible-container {
+    display: inline-flex;
+    padding-left: 70px;
+    padding-right: 70px;
+    width: 50px;
+    border: 0px solid rgba(139, 135, 135, 0.458);
+    background-color: rgba(139, 135, 135, 0.458);
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-bottom: 40px;
+    margin-top: 40px;
+    border-radius: 2px;
+}
+
+#box-color {
+    border: 5px solid rgba(249, 0, 0, 0.532);
+    background-color: rgb(243, 181, 181);
+}
+
+.add-money {
+    border: none;
+    border-bottom: 2px solid red;
+    font-size: 30px;
+    color: gray;
+    text-align: center;
+    border-right-width: 100px;
+    border-width: thin;
+    border
+}
+
+.add-amount {
+    margin: 0;
+    padding-left: 39%;
+    padding-top: 20px;
+    padding-bottom: 10px;
+
+}
+
+.new-donate-button {
+    text-decoration: none;
+    background-color: rgb(247, 74, 74);
+    text-align: center;
+    padding: 10px 20px 12px 20px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
+    font-size: 25px;
+}
+
+.half-width-new {
+    width: 100%;
+    padding: 0px 0px 80px 20px;
+    text-align: center;
 }
